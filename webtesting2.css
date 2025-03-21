@@ -1,0 +1,615 @@
+
+.textcenter{
+    text-align: center;
+}
+
+.fruitbackground{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10000px;
+    background-color: black;
+}
+
+.background{
+    margin-top: 0;
+    padding-top: 0 ;
+    width: 1232px;
+    height: 525px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+.iconlogo{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+}
+
+.navigation{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+}
+
+.ulnav{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    background-color: blue;
+    border-bottom: 2px solid red;
+}
+
+.linav0{
+    font-size: 43px;
+    font-weight: 100;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-right: 365px;
+}
+.linav1{
+    margin-top: 26px;
+    font-size: 22px;
+    list-style-type: none;
+    margin-right: 65px;
+}
+
+.linav2{
+    margin-top: 26px;
+    font-size: 22px;
+    list-style-type: none;
+    margin-right: 65px;
+}
+
+.linav3{
+    margin-top: 26px;
+    font-size: 22px;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.linav4{
+    margin-top: 26px;
+    font-size: 22px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.category1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.line{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1232px;
+    height: 1px;
+    background-color: white;
+}
+
+.fruitrow1{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rocketfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.rocketlogo{
+    height: 200px;
+    width: 200px;
+}
+.spinfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.spinlogo{
+    width: 200px;
+    height: 200px;
+}
+.chopfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.choplogo{
+    height: 200px;
+    width: 200px;
+}
+.springfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.springlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow2{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bombfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.bomblogo{
+    height: 200px;
+    width: 200px;
+}
+.smokefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.smokelogo{
+    height: 200px;
+    width: 200px;
+}
+.spikefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.spikelogo{
+    height: 200px;
+    width: 200px;
+}
+
+.linedistance{
+    margin-top: 30px;
+}
+.category2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.fruitrow3{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flamefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.flamelogo{
+    height: 200px;
+    width: 200px;
+}
+.falconfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.falconlogo{
+    height: 200px;
+    width: 200px;
+}
+.icefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.icelogo{
+    height: 200px;
+    width: 200px;
+}
+.sandfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.sandlogo{
+    height: 200px;
+    width: 200px;
+}
+.darkfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.darklogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow4{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.darkfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.darklogo{
+    height: 200px;
+    width: 200px;
+}
+.diamondfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.diamondlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.category3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.fruitrow5{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lightfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.lightlogo{
+    height: 200px;
+    width: 200px;
+}
+.rubberfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.rubberlogo{
+    height: 200px;
+    width: 200px;
+}
+.barrierfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.barrierlogo{
+    height: 200px;
+    width: 200px;
+}
+.ghostfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.ghostlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow6{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.magmafruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.magmalogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow7{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quakefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.quakelogo{
+    height: 200px;
+    width: 200px;
+}
+.buddhafruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.buddhalogo{
+    height: 200px;
+    width: 200px;
+}
+.lovefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.lovelogo{
+    height: 200px;
+    width: 200px;
+}
+.spiderfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.spiderlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow8{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.soundfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.soundlogo{
+    height: 200px;
+    width: 200px;
+}
+.phoenixfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.phoenixlogo{
+    height: 200px;
+    width: 200px;
+}
+.portalfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.portallogo{
+    height: 200px;
+    width: 200px;
+}
+.rumblefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.rumblelogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow9{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.painlogo{
+    height: 200px;
+    width: 200px;
+}
+.blizzardfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.blizzardlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow10{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gravityfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.gravitylogo{
+    height: 200px;
+    width: 200px;
+}
+.mammothfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.mammothlogo{
+    height: 200px;
+    width: 200px;
+}
+.trexfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.trexlogo{
+    height: 200px;
+    width: 200px;
+}
+.doughfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.doughlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow11{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shadowfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.shadowlogo{
+    height: 200px;
+    width: 200px;
+}
+.venomfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.venomlogo{
+    height: 200px;
+    width: 200px;
+}
+.controlfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.controllogo{
+    height: 200px;
+    width: 200px;
+}
+.spiritfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.spiritlogo{
+    height: 200px;
+    width: 200px;
+}
+
+.fruitrow12{
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dragonfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.dragonlogo{
+    height: 200px;
+    width: 200px;
+}
+.leopardfruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.leopardlogo{
+    height: 200px;
+    width: 200px;
+}
+.kitsunefruit{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+}
+.kitsunelogo{
+    height: 200px;
+    width: 200px;
+}
